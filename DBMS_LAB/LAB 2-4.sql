@@ -1,4 +1,4 @@
-#LAB 2
+#-------------------------------------LAB 2-----------------------------------------------------------------------------------------------
 
 CREATE TABLE SUPPLIERS(
 	SUPPLIER_NUMBER CHAR(2),
@@ -119,7 +119,7 @@ FROM shipments sh, suppliers s, projects p
 WHERE (sh.SUPPLIER_NUMBER = s.SUPPLIER_NUMBER && s.CITY="Bombay" && sh.PROJECT_NUMBER=p.PROJECT_NUMBER && p.CITY="Bombay");
 
 
-# LAB 3
+#<------------------------------------------------------- LAB 3--------------------------------------------------------------->|
 
 #1 
 SELECT s.CITY, p.CITY
@@ -161,7 +161,7 @@ FROM shipments AS sp
 ORDER BY sp.PROJECT_NUMBER;
 
 
-#Lab 4
+#<------------------------------------------------------Lab 4----------------------------------------------------------->|
 
 #1
 SELECT DISTINCT PART_NUMBER
